@@ -1,0 +1,53 @@
+print("\nWelcome to my computer quiz!\n")
+
+playing = input("Do you want to play? ")
+
+#playing.lower() is a case-sensitivity to convert the input to lowercase
+if playing.lower() != "yes":
+    print("GoodBye!")
+    quit()
+    
+print("Okay! let's play game :) \n")
+score = 0
+
+answer = input("1. What does CPU stand for? ")
+if answer.lower() == "central processing unit":
+    print("Correct! +1 point")
+    score += 1
+else:
+    print("Incorrect!")
+print("\n")
+
+answer = input("2. What does GPU stand for? ")
+if answer.lower() == "graphics processing unit":
+    print("Correct! +1 point")
+    score += 1
+else:
+    print("Incorrect!")
+print("\n")
+
+answer = input("3. What does RAM stand for? ")
+if answer.lower() == "random access memory":
+    print("Correct! +1 point")
+    score += 1
+else:
+    print("Incorrect!")
+print("\n")
+
+answer = input("4. What does PSU stand for? ")
+if answer.lower() == "power supply":
+    print("Correct! +1 point")
+    score += 1
+else:
+    print("Incorrect!")
+print("\n")
+
+percent = (score/4)*100
+
+print("Congratulations!! You're done for this game")
+if score <= 1:
+    print("You got", score,"point or", percent,"% :)")
+elif score == 4:
+    print("You got", score,"points or", percent,"%, it's a full score!!!")
+else:
+    print("You got", score,"points or", percent,"% :)")

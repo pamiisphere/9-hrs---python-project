@@ -2,38 +2,36 @@
 
 Credit: https://www.youtube.com/watch?v=NpmFbWO6HPU
 
-🕥 Timestamps 🕥
-00:00:00 | How To Navigate These Projects
----
-00:01:46 | #1 - Quiz Game (Easy)
+🕥 Timestamps & KEYs🕥
+ #1 - Quiz Game (Easy)
 Code: https://github.com/techwithtim/5-Pyth...
 ---
-00:22:00 | #2 - Number Guessing Game (Easy)
+ #2 - Number Guessing Game (Easy)
 Code: https://github.com/techwithtim/5-Pyth...
 ---
-00:39:49 | #3 - Rock, Paper, Scissors (Easy)
+ #3 - Rock, Paper, Scissors (Easy)
 Code: https://github.com/techwithtim/5-Pyth...
 ---
-00:54:40 | #4 - Choose Your Own Adventure Game (Easy)
+ #4 - Choose Your Own Adventure Game (Easy)
 Code: https://github.com/techwithtim/5-Pyth...
 ---
-01:06:47 | #5 - Password Manager (Medium)
+ #5 - Password Manager (Medium)
 Code: https://github.com/techwithtim/5-Pyth...
 Fernet Cryptography Documentation: https://cryptography.io/en/latest/fer...
 ---
-01:37:37 | #6 - PIG (Medium)
+ #6 - PIG (Medium)
 Code: https://github.com/techwithtim/3-Mini...
 ---
-01:59:07 | #7 - Madlibs Generator (Medium)
+ #7 - Madlibs Generator (Medium)
 Code: https://github.com/techwithtim/3-Mini...
 ---
-02:15:04 | #8 - Timed Math Challenge (Medium)
+ #8 - Timed Math Challenge (Medium)
 Code: https://github.com/techwithtim/3-Mini...
 ---
-02:28:02 | #9 - Slot Machine (Medium)
+ #9 - Slot Machine (Medium)
 Code: https://github.com/techwithtim/Python...
 ---
-03:20:43 | #10 - Turtle Racing (Medium)
+ #10 - Turtle Racing (Medium)
 Code: https://github.com/techwithtim/Turtle...
 Turtle Docs: https://docs.python.org/3/library/tur...
 ---

@@ -1,0 +1,36 @@
+name = input("Type your name: ")
+print("Welcome", name, "to this adventure!")
+
+answer = input("You are on a dirt road, it has come to an end and you can go left or right.\nWhich way would you like to go? (Left or Right): ").lower()
+
+if answer == "left":
+    answer = input("You come to a river, you can walk around it or swim across?\n Type \"walk\" to walk around and \"swim\" to swim across (Walk or Swim): ").lower()
+    if answer == "walk":
+        print("You walk for many miles, and you suddenly met a woman")
+        answer = input("What would you do to her? (1.Ask for helps or 2.Run away): ").lower()
+        if answer == "1":
+            print("You survived. You win!")
+        elif answer == "2":
+            print("You ran out of water. You lose!")
+        else:
+            print("Not a valid option. You lose!")
+    elif answer == "swim":
+        print("You swam across and were eaten by an alligator. Oops...You died!")
+    else:
+        print("Not a valid option. You lose!")
+elif answer == "right":
+    answer = input("You come to a bridge, it looks wobbly.\nDo you want to cross it or head back? (Cross or Back): ").lower()
+    if answer == "cross":
+        answer = input("You cross the bridge and meet a stranger.\nDo you talk to them (Yes or No): ").lower()
+        if answer == "yes":
+            print("They help you, so you survived. You win!")
+        elif answer == "no":
+            print("They are offended because you ignore them, so you are killed. You lose!")
+        else:
+            print("Not a valid option. You lose!")
+    elif answer == "back":
+        print("You go back and lost the way, and you cannot find the way home. You lose!")
+    else:
+        print("Not a valid option. You lose!")
+else:
+    print("Not a valid option. You lose!")
